@@ -13,7 +13,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "build:css": "postcss src/css/temp.css -o src/css/tailwind.css",
-    "deploy:github": "npm run build && node ./scripts/deploy-github"
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
