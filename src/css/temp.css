@@ -1,0 +1,26 @@
+@tailwind base;
+
+ul {
+  list-style-type: disc !important;
+}
+ol {
+  list-style-type: decimal !important;
+}
+
+li {
+  @apply ml-8 mb-4;
+}
+h2 {
+  @apply text-xl font-medium mb-4;
+}
+
+@tailwind components;
+
+.how {
+  border-left: 5px solid blue;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@tailwind utilities;

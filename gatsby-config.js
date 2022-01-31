@@ -6,5 +6,17 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Seulmin Ryu",
+        short_name: "seulminryu",
+        start_url: "/",
+        display: "standalone",
+        icon: "static/assets/seul.svg",
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+  ],
 }
