@@ -20,7 +20,7 @@ export default function Me() {
           <p className="">
             I am a graduate of New York University with a B.A in Computer
             Science, along with a minor in Web Programming and Applications. I
-            am currently an Associate Software Engineer at Capital One.
+            am currently an Senior Associate Software Engineer at Capital One.
           </p>
           <p className="mt-4">
             Even though I am passionate about all sides of software development,
@@ -30,10 +30,7 @@ export default function Me() {
             structure and meaningful interactions.
           </p>
           <p className="mt-4">
-            When I am not developing, you can see me playing basketball at the
-            courts ⛹️‍, lifting dumbbells and barbells multiple times at the gym
-            🏋️, or engaging in various debates about NBA, NFL and EPL Soccer
-            🏀🏈⚽️. Shoot me a message if you want to talk about Manchester
+            When I am not developing, you can see me playing soccer in the fields of NYC or engaging in various debates about NBA, NFL and Soccer. Shoot me a message if you want to talk about Manchester
             United or Brooklyn Nets!
           </p>
         </div>
